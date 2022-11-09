@@ -1,0 +1,78 @@
+* {
+    color: #fff;
+}
+  
+html,
+body {
+    min-height: 100%;
+    background-color: #3B547A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img {
+    margin: 10px auto;
+    width: 170px;
+    display: block;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.button-chat{
+    width: 130px;
+    height: 150px;
+    background: rgb(250, 250, 250, 0.2);
+    border-radius: 20px;
+    border: unset;
+    margin: 0 40px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.comeca{
+    text-decoration: none;
+}
+.imgChat{
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    max-width:110px;
+    max-height:170px;
+    width: auto;
+    height: auto;
+}
+
+.button-chat:hover{
+    background: #3B547A;
+    border: solid black 2px;
+}
+.button-contatos{
+    width: 130px;
+    height: 150px;
+    background: rgb(250, 250, 250, 0.2);
+    border-radius: 20px;
+    border: unset;
+    margin: 0 40px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contatos{
+    text-decoration: none;
+}
+.imgContato{
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    max-width:75px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.button-contatos:hover{
+    background: #3B547A;
+    border: solid black 2px;
+}
